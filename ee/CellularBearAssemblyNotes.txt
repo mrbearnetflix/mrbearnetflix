@@ -1,0 +1,14 @@
+﻿Build Notes
+Heart LEDs:
+* The Bear's heart LEDs are a 6” piece of a 12V Double LED strip (5 sections of the strip) Part# FPCB277
+
+
+Squeeze Sensor:
+* The Bear's squeeze sensor is a custom built sensor using conductive foam, 4” x 1.5” piece of the foam is cut from a sheet of 1” thick low density conductive foam (All-Spec Part# 749-2436). 
+* The sensor is assembled similarly to the sensor detailed here.  
+* Due to variations in assembly the final resistance of this squeeze sensor can vary significantly, the resistor R1 should be matched closely to the resting resistance of the squeeze sensor.
+
+
+Miscellaneous Assembly Details:
+* An optional switch can also be added inline with the battery (not detailed in the schematic).
+* The provided firmware requires a Particle Webhook to an outside server, however this can be eliminated by directly pairing the Bears and using the available Particle.subscribe function in place of the Particle.function calls in the current firmware.
