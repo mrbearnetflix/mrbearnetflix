@@ -5,7 +5,7 @@ Heart LEDs:
 
 Squeeze Sensor:
 * The Bear's squeeze sensor is a custom built sensor using conductive foam, 4” x 1.5” piece of the foam is cut from a sheet of 1” thick low density conductive foam (All-Spec Part# 749-2436). 
-* The sensor is assembled similarly to the sensor detailed here.  
+* The sensor is assembled similarly to the sensor detailed here http://www.instructables.com/id/How-to-Make-a-Ridiculously-Cheap-Analog-Pressure-S/.  
 * Due to variations in assembly the final resistance of this squeeze sensor can vary significantly, the resistor R1 should be matched closely to the resting resistance of the squeeze sensor.
 
 
